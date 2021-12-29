@@ -1,0 +1,11 @@
+Name: Tyler Keller
+
+Collaborators: None
+
+Time to finish: about 6 hours
+
+Notes: In order to verify that the "questions.txt" file was correctly formatted and read questions
+in without any issues, I checked both the first and third and fifth characters of each line. If the first char
+was a digit (using isdigit()) and the third and fifth characters were alphabetic (using isalpha()),
+then the question data was read and loaded. If the data failed to load for any line (excluding the first
+and last lines), the loop broke, and the function returned false.
